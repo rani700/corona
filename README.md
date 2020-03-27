@@ -5,7 +5,8 @@ Corona Fatalities Prediction using time series forecasting.
 I have used this dataset https://github.com/rani700/corona/blob/master/datasets/train.csv which provides the Confirmed cases and Fatalities per day starting from 22nd january till 18th march by the location of the world.
 
 ## Visualisation
-https://github.com/rani700/corona/blob/master/visualisation.ipynb Here you can find the visualisation of the Fatalities and Confirmed cases plotted on the world map.
+https://github.com/rani700/corona/blob/master/visualisation.ipynb  
+Here you can find the visualisation of the Fatalities and Confirmed cases plotted on the world map.
 
 ## Predictions 
   
@@ -16,7 +17,8 @@ I have used the VLSW for generating the large time series data from the smaller 
 
 <img src="https://raw.githubusercontent.com/rani700/corona/master/screenshots/case_prediction.png">
 
-https://github.com/rani700/corona/blob/master/ssim_prediction.ipynb Here I have trained Univariate prediction model with SSIM Model which contains 2 LSTM layers, 1 Dense Layer, 1 attention mechanism.
+https://github.com/rani700/corona/blob/master/ssim_prediction.ipynb  
+Here I have trained Univariate prediction model with SSIM Model which contains 2 LSTM layers, 1 Dense Layer, 1 attention mechanism.
 Using this model I achieved the validation <b>loss of 0.0072</b> and Validation <b>accuracy of 0.9048</b>  
   
 Here given previous 10 days Confirmed cases this model can predict the possible cases in the next 5 days.
@@ -25,7 +27,8 @@ Here given previous 10 days Confirmed cases this model can predict the possible 
 
 <img src="https://raw.githubusercontent.com/rani700/corona/master/screenshots/fatalities_prediction.png">
 
-https://github.com/rani700/corona/blob/master/ssim_prediction_multivariate.ipynb Here I have trained MultiVariate prediction model with SSIM Model which contains 2 LSTM layers, 1 Dense Layer, 1 attention mechanism.
+https://github.com/rani700/corona/blob/master/ssim_prediction_multivariate.ipynb  
+Here I have trained MultiVariate prediction model with SSIM Model which contains 2 LSTM layers, 1 Dense Layer, 1 attention mechanism.
 Using this model I achieved the validation <b>loss of 0.0011</b> and Validation <b>accuracy of 0.9563</b>  
   
 Here given previous 10 days Confirmed cases and Fatalities this model can predict the possible cases in the next 5 days.
